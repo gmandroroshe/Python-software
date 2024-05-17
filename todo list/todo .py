@@ -3,6 +3,7 @@ from tkinter import messagebox, simpledialog
 from datetime import datetime, timedelta
 import time
 
+
 def add_task():
     task = task_entry.get()
     if task:
